@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rage_titles>
+  <title>
+    <slug>gtav</slug>
+    <display_name>Grand Theft Auto V</display_name>
+    <source_url>https://raw.githubusercontent.com/alloc8or/gta5-nativedb-data/master/natives.json</source_url>
+    <images><image>https://cdn.veyvy.space/data/scdb/screen/gtav.jpg</image></images>
+    <commands />
+  </title>
+  <title>
+    <slug>gta_enhanced</slug>
+    <display_name>GTAV Enhanced</display_name>
+    <source_url>https://raw.githubusercontent.com/alloc8or/gta5-nativedb-data/master/natives_gen9.json</source_url>
+    <images><image>https://cdn.veyvy.space/data/scdb/screen/gtav_enhanced.jpg</image></images>
+    <commands />
+  </title>
+  <title>
+    <slug>rdr2</slug>
+    <display_name>Red Dead Redemption 2</display_name>
+    <source_url>https://raw.githubusercontent.com/alloc8or/rdr3-nativedb-data/master/natives.json</source_url>
+    <images><image>https://cdn.veyvy.space/data/scdb/screen/rdr2.jpg</image></images>
+    <commands />
+  </title>
+  <title>
+    <slug>rdr</slug>
+    <display_name>Red Dead Redemption</display_name>
+    <source_url>https://cdn.veyvy.space/data/scdb/rdr.h</source_url>
+    <images><image>https://cdn.veyvy.space/data/scdb/screen/rdr.jpeg</image></images>
+    <commands />
+  </title>
+  <title>
+    <slug>gtaiv</slug>
+    <display_name>Grand Theft Auto IV</display_name>
+    <source_url>https://cdn.veyvy.space/data/scdb/gtaIV.h</source_url>
+    <images><image>https://cdn.veyvy.space/data/scdb/screen/gtaiv.jpg</image></images>
+    <commands />
+  </title>
+  <title>
+    <slug>max_payne_3</slug>
+    <display_name>Max Payne 3</display_name>
+    <source_url>https://cdn.veyvy.space/data/scdb/mp3.h</source_url>
+    <images><image>https://cdn.veyvy.space/data/scdb/screen/mp3.jpg</image></images>
+    <commands />
+  </title>
+</rage_titles>

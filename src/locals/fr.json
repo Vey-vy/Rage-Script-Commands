@@ -1,0 +1,73 @@
+{
+  "common": {
+    "home": "Accueil",
+    "allGames": "Tous les jeux",
+    "allCommands": "Toutes les commandes",
+    "export": "Exporter",
+    "back": "Retour",
+    "open": "Ouvrir",
+    "close": "Fermer",
+    "language": "Langue",
+    "commands": "commandes",
+    "selected": "sélectionnées",
+    "noData": "Aucune donnée disponible."
+  },
+  "nav": {
+    "home": "Accueil",
+    "allGames": "Tous les jeux",
+    "explorer": "Explorateur",
+    "export": "Exporter"
+  },
+  "home": {
+    "welcome": "Bienvenue !",
+    "subtitle": "Découvre les commandes natives de tes jeux RAGE."
+  },
+  "footer": {
+    "tos": "CGU",
+    "legal": "Mentions légales",
+    "credit": "© %year% Script Commands · Propulsé par Vey-vy"
+  },
+  "notFound": {
+    "title": "Tu t'es perdu ?",
+    "text": "Cette page n'existe pas ou a été déplacée.",
+    "cta": "Retour à l'accueil"
+  },
+  "browser": {
+    "natives": "Natives",
+    "searchPlaceholder": "Rechercher par nom, hash ou commentaire",
+    "allBuilds": "Tous les builds",
+    "of": "sur",
+    "selected": "sélectionnées",
+    "openExport": "Ouvrir l’espace d’export",
+    "allCommands": "Toutes les commandes",
+    "namespaces": "Espaces de noms",
+    "commandsIndexed": "commandes indexées",
+    "noParams": "Aucune métadonnée de paramètre disponible.",
+    "inspector": "Inspecteur",
+    "namespace": "Namespace",
+    "returns": "Retour",
+    "hash": "Hash",
+    "build": "Build",
+    "parameters": "Paramètres",
+    "documentation": "Documentation",
+    "searchLabel": "Rechercher des natives",
+    "clearSearch": "Effacer la recherche",
+    "exportWorkspace": "Espace d’export"
+  },
+  "export": {
+    "title": "Export",
+    "backExplorer": "Retour à l’explorateur",
+    "format": "Format",
+    "filter": "Filtre",
+    "invoker": "Invoker",
+    "content": "Contenu",
+    "includeMetadata": "Inclure les métadonnées (hash, build, paramètres, retour)",
+    "includeComments": "Inclure les commentaires (documentation de la source)",
+    "download": "Télécharger",
+    "filterPlaceholder": "Filtrer par nom, namespace ou commentaire",
+    "invokerPlaceholder": "invoke",
+    "visibleCount": "%count% commandes seront exportées",
+    "json": "JSON",
+    "hpp": "HPP"
+  }
+}

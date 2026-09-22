@@ -1,0 +1,35 @@
+.topbar-nav {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.topbar-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    color: inherit;
+    opacity: 0.75;
+    transition: opacity 0.15s ease, background-color 0.15s ease;
+}
+
+.topbar-link:hover,
+.topbar-link:focus-visible {
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+.topbar-link:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 2px;
+}
+
+.topbar-link svg {
+    display: block;
+    width: 20px;
+    height: 20px;
+    flex: none;
+}

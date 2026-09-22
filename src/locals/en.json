@@ -1,0 +1,73 @@
+{
+  "common": {
+    "home": "Home",
+    "allGames": "All games",
+    "allCommands": "All commands",
+    "export": "Export",
+    "back": "Back",
+    "open": "Open",
+    "close": "Close",
+    "language": "Language",
+    "commands": "commands",
+    "selected": "selected",
+    "noData": "No data available."
+  },
+  "nav": {
+    "home": "Home",
+    "allGames": "All games",
+    "explorer": "Explorer",
+    "export": "Export"
+  },
+  "home": {
+    "welcome": "Welcome!",
+    "subtitle": "Discover native commands from your RAGE games."
+  },
+  "footer": {
+    "tos": "Terms",
+    "legal": "Legal",
+    "credit": "© %year% Script Commands · Powered by Vey-vy"
+  },
+  "notFound": {
+    "title": "You got lost?",
+    "text": "This page does not exist or has moved.",
+    "cta": "Back to home"
+  },
+  "browser": {
+    "natives": "Natives",
+    "searchPlaceholder": "Search by name, hash, or comment",
+    "allBuilds": "All builds",
+    "of": "of",
+    "selected": "selected",
+    "openExport": "Open export workspace",
+    "allCommands": "All commands",
+    "namespaces": "Namespaces",
+    "commandsIndexed": "commands indexed",
+    "noParams": "No parameter metadata available.",
+    "inspector": "Inspector",
+    "namespace": "Namespace",
+    "returns": "Returns",
+    "hash": "Hash",
+    "build": "Build",
+    "parameters": "Parameters",
+    "documentation": "Documentation",
+    "searchLabel": "Search natives",
+    "clearSearch": "Clear search",
+    "exportWorkspace": "Export workspace"
+  },
+  "export": {
+    "title": "Export",
+    "backExplorer": "Back to explorer",
+    "format": "Format",
+    "filter": "Filter",
+    "invoker": "Invoker",
+    "content": "Content",
+    "includeMetadata": "Include metadata (hash, build, params, return type)",
+    "includeComments": "Include comments (documentation from source)",
+    "download": "Download",
+    "filterPlaceholder": "Filter by name, namespace, or comment",
+    "invokerPlaceholder": "invoke",
+    "visibleCount": "%count% commands will be exported",
+    "json": "JSON",
+    "hpp": "HPP"
+  }
+}
