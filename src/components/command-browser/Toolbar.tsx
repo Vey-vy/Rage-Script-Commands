@@ -7,15 +7,6 @@ import type { Command } from '@/types';
 
 type Column = 'name' | 'syntax' | 'invoke' | 'namespace' | 'returnType' | 'hash';
 
-const columnLabels: Record<Column, string> = {
-  name: 'Name',
-  syntax: 'Signature',
-  invoke: 'Invoke',
-  namespace: 'Namespace',
-  returnType: 'Returns',
-  hash: 'Hash',
-};
-
 interface ToolbarProps {
   commands: Command[];
   query: string;
@@ -48,10 +39,6 @@ export function Toolbar({
   onShowColumnsChange,
   filteredCount,
   selectedCount,
-  allSelected,
-  onSelectAll,
-  onSelectNone,
-  gameSlug,
 }: ToolbarProps) {
   const columnMenuRef = useRef<HTMLDivElement>(null);
   const { t } = useTranslation();
@@ -117,7 +104,6 @@ export function Toolbar({
           {filteredCount.toLocaleString()} {t('browser.of')} {commands.length.toLocaleString()} {t('browser.natives')}
         </span>
         {selectedCount > 0 && <span>&middot; {selectedCount.toLocaleString()} {t('browser.selected')}</span>}
-        <Link href={`/games/${gameSlug}/export`}>{t('browser.openExport')} &#8599;</Link>
       </div>
     </div>
   );

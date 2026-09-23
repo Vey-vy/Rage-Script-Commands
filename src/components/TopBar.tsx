@@ -48,7 +48,7 @@ type SocialLink = {
 
 const links: SocialLink[] = [
     { href: 'https://discord.gg/cyNP2bn9xE', label: 'Discord', icon: <DiscordIcon /> },
-    { href: 'https://github.com/Vey-vy/NativeDB', label: 'GitHub', icon: <GitHubIcon /> },
+    { href: 'https://github.com/Vey-vy/Rage-Script-Commands', label: 'GitHub', icon: <GitHubIcon /> },
     { href: 'https://www.instagram.com/veyv.y/', label: 'Instagram', icon: <InstagramIcon /> },
 ];
 

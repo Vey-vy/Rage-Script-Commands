@@ -90,7 +90,7 @@ export default function ExportWorkspace({ commands, gameTitle, gameSlug }: { com
       <ExportOptions
         content={content}
         format={format}
-        gameSlug={gameSlug}
+        gameSlug={gameSlug ?? ""}
         gameTitle={gameTitle}
         hppInvokerName={hppInvokerName}
         includeComments={includeComments}
