@@ -6,3 +6,6 @@
 
 ### Command Export
 ![Command Export](./screen/export.png)
+
+### Credits
+- alloc8or (GTAV && RDR2)
