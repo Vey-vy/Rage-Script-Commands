@@ -65,15 +65,6 @@ export function TopBar() {
                 >
                     <span>Vy Space | RAGE Script Commands</span>
                 </Link>
-
-                <a
-                    href="https://status.veyvy.space"
-                    className="status-link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Status
-                </a>
             </div>
 
             <div className="topbar-actions">
