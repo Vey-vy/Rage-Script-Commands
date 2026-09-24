@@ -57,9 +57,24 @@ export function TopBar() {
 
     return (
         <header className="topbar">
-            <Link href="/" className="brand" aria-label="Vy Space | RAGE Script Commands home">
-                <span>Vy Space | RAGE Script Commands</span>
-            </Link>
+            <div className="brand-group">
+                <Link
+                    href="/"
+                    className="brand"
+                    aria-label="Vy Space | RAGE Script Commands home"
+                >
+                    <span>Vy Space | RAGE Script Commands</span>
+                </Link>
+
+                <a
+                    href="https://status.veyvy.space"
+                    className="status-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Status
+                </a>
+            </div>
 
             <div className="topbar-actions">
                 <nav className="topbar-nav" aria-label="Social links">
@@ -78,6 +93,15 @@ export function TopBar() {
                     ))}
                 </nav>
 
+                <a
+                    href="https://status.veyvy.space/status/services"
+                    className="status-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Status
+                </a>
+
                 <div className="lang-switcher" aria-label={t('common.language')}>
                     <button
                         className={locale === 'fr' ? 'is-active' : ''}
@@ -86,6 +110,7 @@ export function TopBar() {
                     >
                         FR
                     </button>
+
                     <button
                         className={locale === 'en' ? 'is-active' : ''}
                         onClick={() => setLocale('en')}

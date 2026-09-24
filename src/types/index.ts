@@ -7,7 +7,7 @@ export interface Command {
   name: string;
   syntax: string;
   namespace?: string;
-  sourceType?: 'json' | 'header';
+  sourceType?: 'json'|'header';
   hash?: string;
   returnType?: string;
   params?: CommandParam[];

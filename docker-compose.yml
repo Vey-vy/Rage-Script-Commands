@@ -1,16 +1,16 @@
 services:
   app:
     build: .
-    container_name: native-app
+    container_name: rsc-app
     networks:
       - web
     labels:
       - traefik.enable=true
-      - traefik.http.routers.app-native.entrypoints=websecure
-      - traefik.http.routers.app-native.rule=Host(`veyvy.space`)
-      - traefik.http.routers.app-native.tls.certresolver=letsencryptresolver
-      - traefik.http.routers.app-native.service=app-native_svc
-      - traefik.http.services.app-native_svc.loadbalancer.server.port=3000
+      - traefik.http.routers.app-rsc.entrypoints=websecure
+      - traefik.http.routers.app-rsc.rule=Host(`veyvy.space`)
+      - traefik.http.routers.app-rsc.tls.certresolver=letsencryptresolver
+      - traefik.http.routers.app-rsc.service=app-rsc_svc
+      - traefik.http.services.app-rsc_svc.loadbalancer.server.port=3000
       - traefik.docker.network=web
 
 networks:
