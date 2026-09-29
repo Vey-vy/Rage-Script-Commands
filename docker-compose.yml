@@ -7,7 +7,7 @@ services:
     labels:
       - traefik.enable=true
       - traefik.http.routers.app-rsc.entrypoints=websecure
-      - traefik.http.routers.app-rsc.rule=Host(`veyvy.space`)
+      - traefik.http.routers.app-rsc.rule=Host(`rsc.veyvy.space`)
       - traefik.http.routers.app-rsc.tls.certresolver=letsencryptresolver
       - traefik.http.routers.app-rsc.service=app-rsc_svc
       - traefik.http.services.app-rsc_svc.loadbalancer.server.port=3000
