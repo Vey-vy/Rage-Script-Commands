@@ -22,6 +22,12 @@
     "welcome": "Bienvenue !",
     "subtitle": "Découvre les commandes natives de tes jeux RAGE."
   },
+  "news": {
+    "eyebrow": "Actualité",
+    "close": "Fermer l’actualité",
+    "readMore": "En savoir plus",
+    "dismiss": "Compris"
+  },
   "footer": {
     "tos": "CGU",
     "legal": "Mentions légales",

@@ -22,6 +22,12 @@
     "welcome": "Welcome!",
     "subtitle": "Discover native commands from your RAGE games."
   },
+  "news": {
+    "eyebrow": "News",
+    "close": "Close news",
+    "readMore": "Read more",
+    "dismiss": "Got it"
+  },
   "footer": {
     "tos": "Terms",
     "legal": "Legal",
